@@ -31,8 +31,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         recyclerView = findViewById(R.id.recyclerView);
-        TextView call = findViewById(R.id.call);
-        TextView email = findViewById(R.id.email);
+        TextView cs = findViewById(R.id.cs);
         TextView location = findViewById(R.id.location);
 
         s1 = getResources().getStringArray(R.array.product_name);
@@ -45,22 +44,10 @@ public class MainActivity extends AppCompatActivity {
         recyclerView.setAdapter(myAdapter);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
 
-        call.setOnClickListener(new View.OnClickListener() {
+        cs.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("tel:01036325098"));
-                startActivity(intent);
-            }
-        });
-
-        email.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(Intent.ACTION_SEND);
-                intent.setData(Uri.parse("mailto:"));
-                intent.setType("plain/text");
-                String[] address = {"seoyoung4228@naver.com"};
-                intent.putExtra(Intent.EXTRA_EMAIL, address);
+            public void onClick(View v) {
+                Intent intent= new Intent(MainActivity.this, CustomerService.class);
                 startActivity(intent);
             }
         });
