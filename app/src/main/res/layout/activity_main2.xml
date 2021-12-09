@@ -6,4 +6,73 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity2">
 
+    <ImageView
+        android:id="@+id/product_img2"
+        android:layout_width="190dp"
+        android:layout_height="190dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="28dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/product_name2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="TextView"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/product_img2" />
+
+    <TextView
+        android:id="@+id/product_price2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="price"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/product_name2" />
+
+    <TextView
+        android:id="@+id/product_detail2"
+        android:layout_width="389dp"
+        android:layout_height="283dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="description"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/product_price2" />
+
+    <ImageView
+        android:id="@+id/product_img22"
+        android:layout_width="190dp"
+        android:layout_height="190dp"
+        android:layout_marginTop="28dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/product_img2"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@drawable/ic_launcher_background" />
+
+    <TextView
+        android:id="@+id/product_website"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:text="website"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/product_detail2"
+        app:layout_constraintVertical_bias="0.827" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
