@@ -1854,6 +1854,7 @@ drawable clothes8
 drawable clothes88
 drawable clothes9
 drawable clothes99
+drawable color
 drawable common_full_open_on_phone
 drawable common_google_signin_btn_icon_dark
 drawable common_google_signin_btn_icon_dark_focused
@@ -1879,6 +1880,8 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable dk_logo
+drawable dongguk_logo
 drawable email
 drawable favorite_icon
 drawable googleg_disabled_color_18
@@ -1892,6 +1895,8 @@ drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable km_logo
+drawable lbk_logo
 drawable like_icon
 drawable location_icon
 drawable login_icon
@@ -1921,6 +1926,7 @@ drawable mtrl_popupmenu_background_dark
 drawable mtrl_tabs_default_indicator
 drawable navigation_empty_icon
 drawable navigation_icon
+drawable nh_logo
 drawable notification_action_background
 drawable notification_bg
 drawable notification_bg_low
@@ -1943,6 +1949,7 @@ drawable test_custom_background
 drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+drawable wr_logo
 font baloo
 font basic
 font nexonlv1gothicbold
@@ -2174,7 +2181,10 @@ id image
 id imageView
 id imageView2
 id imageView3
-id imageView4
+id imageView5
+id imageView6
+id imageView7
+id imageView8
 id immediateStop
 id included
 id info
@@ -2416,10 +2426,15 @@ id textSpacerNoTitle
 id textStart
 id textTop
 id textView
+id textView10
 id textView2
 id textView3
 id textView4
 id textView5
+id textView6
+id textView7
+id textView8
+id textView9
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon

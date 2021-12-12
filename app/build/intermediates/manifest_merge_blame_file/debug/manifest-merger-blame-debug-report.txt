@@ -85,7 +85,7 @@
 56-->D:\ProgLAB\AndroidStudio\MobileSoftwareLAB\ICE.com\app\src\main\AndroidManifest.xml:32:9-34:71
 57            android:name="com.google.android.geo.API_KEY"
 57-->D:\ProgLAB\AndroidStudio\MobileSoftwareLAB\ICE.com\app\src\main\AndroidManifest.xml:33:13-58
-58            android:value="AIzaSyBCbLu5U1e4GI5A0wZpaQufzo42JnVkRI8" />
+58            android:value="AIzaSyBQxY9kN8pTBAYskxA96Zt34mRsbaKu2ZY" />
 58-->D:\ProgLAB\AndroidStudio\MobileSoftwareLAB\ICE.com\app\src\main\AndroidManifest.xml:34:13-68
 59
 60        <activity

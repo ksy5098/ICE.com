@@ -39,10 +39,22 @@ public final class ActivityCustomerServiceBinding implements ViewBinding {
   public final ImageView imageView3;
 
   @NonNull
-  public final ImageView imageView4;
+  public final ImageView imageView5;
+
+  @NonNull
+  public final ImageView imageView6;
+
+  @NonNull
+  public final ImageView imageView7;
+
+  @NonNull
+  public final ImageView imageView8;
 
   @NonNull
   public final TextView textView;
+
+  @NonNull
+  public final TextView textView10;
 
   @NonNull
   public final TextView textView2;
@@ -56,11 +68,26 @@ public final class ActivityCustomerServiceBinding implements ViewBinding {
   @NonNull
   public final TextView textView5;
 
+  @NonNull
+  public final TextView textView6;
+
+  @NonNull
+  public final TextView textView7;
+
+  @NonNull
+  public final TextView textView8;
+
+  @NonNull
+  public final TextView textView9;
+
   private ActivityCustomerServiceBinding(@NonNull ConstraintLayout rootView, @NonNull TextView call,
       @NonNull TextView chat, @NonNull TextView email, @NonNull ImageView imageView,
-      @NonNull ImageView imageView2, @NonNull ImageView imageView3, @NonNull ImageView imageView4,
-      @NonNull TextView textView, @NonNull TextView textView2, @NonNull TextView textView3,
-      @NonNull TextView textView4, @NonNull TextView textView5) {
+      @NonNull ImageView imageView2, @NonNull ImageView imageView3, @NonNull ImageView imageView5,
+      @NonNull ImageView imageView6, @NonNull ImageView imageView7, @NonNull ImageView imageView8,
+      @NonNull TextView textView, @NonNull TextView textView10, @NonNull TextView textView2,
+      @NonNull TextView textView3, @NonNull TextView textView4, @NonNull TextView textView5,
+      @NonNull TextView textView6, @NonNull TextView textView7, @NonNull TextView textView8,
+      @NonNull TextView textView9) {
     this.rootView = rootView;
     this.call = call;
     this.chat = chat;
@@ -68,12 +95,20 @@ public final class ActivityCustomerServiceBinding implements ViewBinding {
     this.imageView = imageView;
     this.imageView2 = imageView2;
     this.imageView3 = imageView3;
-    this.imageView4 = imageView4;
+    this.imageView5 = imageView5;
+    this.imageView6 = imageView6;
+    this.imageView7 = imageView7;
+    this.imageView8 = imageView8;
     this.textView = textView;
+    this.textView10 = textView10;
     this.textView2 = textView2;
     this.textView3 = textView3;
     this.textView4 = textView4;
     this.textView5 = textView5;
+    this.textView6 = textView6;
+    this.textView7 = textView7;
+    this.textView8 = textView8;
+    this.textView9 = textView9;
   }
 
   @Override
@@ -139,15 +174,39 @@ public final class ActivityCustomerServiceBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.imageView4;
-      ImageView imageView4 = ViewBindings.findChildViewById(rootView, id);
-      if (imageView4 == null) {
+      id = R.id.imageView5;
+      ImageView imageView5 = ViewBindings.findChildViewById(rootView, id);
+      if (imageView5 == null) {
+        break missingId;
+      }
+
+      id = R.id.imageView6;
+      ImageView imageView6 = ViewBindings.findChildViewById(rootView, id);
+      if (imageView6 == null) {
+        break missingId;
+      }
+
+      id = R.id.imageView7;
+      ImageView imageView7 = ViewBindings.findChildViewById(rootView, id);
+      if (imageView7 == null) {
+        break missingId;
+      }
+
+      id = R.id.imageView8;
+      ImageView imageView8 = ViewBindings.findChildViewById(rootView, id);
+      if (imageView8 == null) {
         break missingId;
       }
 
       id = R.id.textView;
       TextView textView = ViewBindings.findChildViewById(rootView, id);
       if (textView == null) {
+        break missingId;
+      }
+
+      id = R.id.textView10;
+      TextView textView10 = ViewBindings.findChildViewById(rootView, id);
+      if (textView10 == null) {
         break missingId;
       }
 
@@ -175,9 +234,34 @@ public final class ActivityCustomerServiceBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.textView6;
+      TextView textView6 = ViewBindings.findChildViewById(rootView, id);
+      if (textView6 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView7;
+      TextView textView7 = ViewBindings.findChildViewById(rootView, id);
+      if (textView7 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView8;
+      TextView textView8 = ViewBindings.findChildViewById(rootView, id);
+      if (textView8 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView9;
+      TextView textView9 = ViewBindings.findChildViewById(rootView, id);
+      if (textView9 == null) {
+        break missingId;
+      }
+
       return new ActivityCustomerServiceBinding((ConstraintLayout) rootView, call, chat, email,
-          imageView, imageView2, imageView3, imageView4, textView, textView2, textView3, textView4,
-          textView5);
+          imageView, imageView2, imageView3, imageView5, imageView6, imageView7, imageView8,
+          textView, textView10, textView2, textView3, textView4, textView5, textView6, textView7,
+          textView8, textView9);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

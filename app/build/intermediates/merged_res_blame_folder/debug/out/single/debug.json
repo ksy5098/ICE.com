@@ -16,16 +16,20 @@
         "source": "D:\\ProgLAB\\AndroidStudio\\MobileSoftwareLAB\\ICE.com\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "D:\\ProgLAB\\AndroidStudio\\MobileSoftwareLAB\\ICE.com\\app\\build\\intermediates\\merged_res\\debug\\drawable_clothes1.jpg.flat",
-        "source": "D:\\ProgLAB\\AndroidStudio\\MobileSoftwareLAB\\ICE.com\\app\\src\\main\\res\\drawable\\clothes1.jpg"
-    },
-    {
         "merged": "D:\\ProgLAB\\AndroidStudio\\MobileSoftwareLAB\\ICE.com\\app\\build\\intermediates\\merged_res\\debug\\drawable_clothes88.jpg.flat",
         "source": "D:\\ProgLAB\\AndroidStudio\\MobileSoftwareLAB\\ICE.com\\app\\src\\main\\res\\drawable\\clothes88.jpg"
     },
     {
+        "merged": "D:\\ProgLAB\\AndroidStudio\\MobileSoftwareLAB\\ICE.com\\app\\build\\intermediates\\merged_res\\debug\\drawable_clothes1.jpg.flat",
+        "source": "D:\\ProgLAB\\AndroidStudio\\MobileSoftwareLAB\\ICE.com\\app\\src\\main\\res\\drawable\\clothes1.jpg"
+    },
+    {
         "merged": "D:\\ProgLAB\\AndroidStudio\\MobileSoftwareLAB\\ICE.com\\app\\build\\intermediates\\merged_res\\debug\\font_basic.ttf.flat",
         "source": "D:\\ProgLAB\\AndroidStudio\\MobileSoftwareLAB\\ICE.com\\app\\src\\main\\res\\font\\basic.ttf"
+    },
+    {
+        "merged": "D:\\ProgLAB\\AndroidStudio\\MobileSoftwareLAB\\ICE.com\\app\\build\\intermediates\\merged_res\\debug\\drawable_lbk_logo.PNG.flat",
+        "source": "D:\\ProgLAB\\AndroidStudio\\MobileSoftwareLAB\\ICE.com\\app\\src\\main\\res\\drawable\\lbk_logo.PNG"
     },
     {
         "merged": "D:\\ProgLAB\\AndroidStudio\\MobileSoftwareLAB\\ICE.com\\app\\build\\intermediates\\merged_res\\debug\\drawable_clothes8.jpg.flat",
@@ -34,6 +38,10 @@
     {
         "merged": "D:\\ProgLAB\\AndroidStudio\\MobileSoftwareLAB\\ICE.com\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher.webp.flat",
         "source": "D:\\ProgLAB\\AndroidStudio\\MobileSoftwareLAB\\ICE.com\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "D:\\ProgLAB\\AndroidStudio\\MobileSoftwareLAB\\ICE.com\\app\\build\\intermediates\\merged_res\\debug\\drawable_nh_logo.PNG.flat",
+        "source": "D:\\ProgLAB\\AndroidStudio\\MobileSoftwareLAB\\ICE.com\\app\\src\\main\\res\\drawable\\nh_logo.PNG"
     },
     {
         "merged": "D:\\ProgLAB\\AndroidStudio\\MobileSoftwareLAB\\ICE.com\\app\\build\\intermediates\\merged_res\\debug\\drawable_clothes77.jpg.flat",
@@ -72,6 +80,10 @@
         "source": "D:\\ProgLAB\\AndroidStudio\\MobileSoftwareLAB\\ICE.com\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
+        "merged": "D:\\ProgLAB\\AndroidStudio\\MobileSoftwareLAB\\ICE.com\\app\\build\\intermediates\\merged_res\\debug\\drawable_km_logo.PNG.flat",
+        "source": "D:\\ProgLAB\\AndroidStudio\\MobileSoftwareLAB\\ICE.com\\app\\src\\main\\res\\drawable\\km_logo.PNG"
+    },
+    {
         "merged": "D:\\ProgLAB\\AndroidStudio\\MobileSoftwareLAB\\ICE.com\\app\\build\\intermediates\\merged_res\\debug\\drawable_clothes55.jpg.flat",
         "source": "D:\\ProgLAB\\AndroidStudio\\MobileSoftwareLAB\\ICE.com\\app\\src\\main\\res\\drawable\\clothes55.jpg"
     },
@@ -90,6 +102,10 @@
     {
         "merged": "D:\\ProgLAB\\AndroidStudio\\MobileSoftwareLAB\\ICE.com\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
         "source": "D:\\ProgLAB\\AndroidStudio\\MobileSoftwareLAB\\ICE.com\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "D:\\ProgLAB\\AndroidStudio\\MobileSoftwareLAB\\ICE.com\\app\\build\\intermediates\\merged_res\\debug\\drawable_wr_logo.PNG.flat",
+        "source": "D:\\ProgLAB\\AndroidStudio\\MobileSoftwareLAB\\ICE.com\\app\\src\\main\\res\\drawable\\wr_logo.PNG"
     },
     {
         "merged": "D:\\ProgLAB\\AndroidStudio\\MobileSoftwareLAB\\ICE.com\\app\\build\\intermediates\\merged_res\\debug\\drawable_profile_icon.xml.flat",
@@ -142,6 +158,10 @@
     {
         "merged": "D:\\ProgLAB\\AndroidStudio\\MobileSoftwareLAB\\ICE.com\\app\\build\\intermediates\\merged_res\\debug\\drawable_clothes33.jpg.flat",
         "source": "D:\\ProgLAB\\AndroidStudio\\MobileSoftwareLAB\\ICE.com\\app\\src\\main\\res\\drawable\\clothes33.jpg"
+    },
+    {
+        "merged": "D:\\ProgLAB\\AndroidStudio\\MobileSoftwareLAB\\ICE.com\\app\\build\\intermediates\\merged_res\\debug\\drawable_dongguk_logo.jpg.flat",
+        "source": "D:\\ProgLAB\\AndroidStudio\\MobileSoftwareLAB\\ICE.com\\app\\src\\main\\res\\drawable\\dongguk_logo.jpg"
     },
     {
         "merged": "D:\\ProgLAB\\AndroidStudio\\MobileSoftwareLAB\\ICE.com\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.webp.flat",
@@ -240,6 +260,10 @@
         "source": "D:\\ProgLAB\\AndroidStudio\\MobileSoftwareLAB\\ICE.com\\app\\src\\main\\res\\drawable\\clothes44.jpg"
     },
     {
+        "merged": "D:\\ProgLAB\\AndroidStudio\\MobileSoftwareLAB\\ICE.com\\app\\build\\intermediates\\merged_res\\debug\\drawable_dk_logo.png.flat",
+        "source": "D:\\ProgLAB\\AndroidStudio\\MobileSoftwareLAB\\ICE.com\\app\\src\\main\\res\\drawable\\dk_logo.png"
+    },
+    {
         "merged": "D:\\ProgLAB\\AndroidStudio\\MobileSoftwareLAB\\ICE.com\\app\\build\\intermediates\\merged_res\\debug\\drawable_clothes9.jpg.flat",
         "source": "D:\\ProgLAB\\AndroidStudio\\MobileSoftwareLAB\\ICE.com\\app\\src\\main\\res\\drawable\\clothes9.jpg"
     },
@@ -278,6 +302,10 @@
     {
         "merged": "D:\\ProgLAB\\AndroidStudio\\MobileSoftwareLAB\\ICE.com\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxxhdpi_ic_launcher_foreground.png.flat",
         "source": "D:\\ProgLAB\\AndroidStudio\\MobileSoftwareLAB\\ICE.com\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "D:\\ProgLAB\\AndroidStudio\\MobileSoftwareLAB\\ICE.com\\app\\build\\intermediates\\merged_res\\debug\\drawable_color.PNG.flat",
+        "source": "D:\\ProgLAB\\AndroidStudio\\MobileSoftwareLAB\\ICE.com\\app\\src\\main\\res\\drawable\\color.PNG"
     },
     {
         "merged": "D:\\ProgLAB\\AndroidStudio\\MobileSoftwareLAB\\ICE.com\\app\\build\\intermediates\\merged_res\\debug\\drawable-ldpi_ic_launcher_foreground.png.flat",
