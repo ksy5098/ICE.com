@@ -14,7 +14,7 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.ICEcom_2019111635">
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
         <activity
             android:name=".CustomerService"
             android:exported="true" />
@@ -46,6 +46,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
     </application>
 
 </manifest>

@@ -42,6 +42,9 @@ public class MainActivity2 extends AppCompatActivity {
 
         getData();
         setData();
+
+
+
     }
 
     private void getData(){
@@ -74,6 +77,7 @@ public class MainActivity2 extends AppCompatActivity {
         mainImageView.setImageResource(myImage);
         mainImageView2.setImageResource(myImage2);
     }
+
 
 
 }
