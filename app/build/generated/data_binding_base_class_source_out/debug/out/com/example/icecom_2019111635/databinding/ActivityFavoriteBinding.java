@@ -4,6 +4,7 @@ package com.example.icecom_2019111635.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -22,10 +23,14 @@ public final class ActivityFavoriteBinding implements ViewBinding {
   @NonNull
   public final TextView favoriteTxt;
 
-  private ActivityFavoriteBinding(@NonNull ConstraintLayout rootView,
-      @NonNull TextView favoriteTxt) {
+  @NonNull
+  public final ImageView imageView9;
+
+  private ActivityFavoriteBinding(@NonNull ConstraintLayout rootView, @NonNull TextView favoriteTxt,
+      @NonNull ImageView imageView9) {
     this.rootView = rootView;
     this.favoriteTxt = favoriteTxt;
+    this.imageView9 = imageView9;
   }
 
   @Override
@@ -61,7 +66,13 @@ public final class ActivityFavoriteBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityFavoriteBinding((ConstraintLayout) rootView, favoriteTxt);
+      id = R.id.imageView9;
+      ImageView imageView9 = ViewBindings.findChildViewById(rootView, id);
+      if (imageView9 == null) {
+        break missingId;
+      }
+
+      return new ActivityFavoriteBinding((ConstraintLayout) rootView, favoriteTxt, imageView9);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

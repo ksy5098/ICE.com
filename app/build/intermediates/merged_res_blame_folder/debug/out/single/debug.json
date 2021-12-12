@@ -16,12 +16,12 @@
         "source": "D:\\ProgLAB\\AndroidStudio\\MobileSoftwareLAB\\ICE.com\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "D:\\ProgLAB\\AndroidStudio\\MobileSoftwareLAB\\ICE.com\\app\\build\\intermediates\\merged_res\\debug\\drawable_clothes88.jpg.flat",
-        "source": "D:\\ProgLAB\\AndroidStudio\\MobileSoftwareLAB\\ICE.com\\app\\src\\main\\res\\drawable\\clothes88.jpg"
-    },
-    {
         "merged": "D:\\ProgLAB\\AndroidStudio\\MobileSoftwareLAB\\ICE.com\\app\\build\\intermediates\\merged_res\\debug\\drawable_clothes1.jpg.flat",
         "source": "D:\\ProgLAB\\AndroidStudio\\MobileSoftwareLAB\\ICE.com\\app\\src\\main\\res\\drawable\\clothes1.jpg"
+    },
+    {
+        "merged": "D:\\ProgLAB\\AndroidStudio\\MobileSoftwareLAB\\ICE.com\\app\\build\\intermediates\\merged_res\\debug\\drawable_clothes88.jpg.flat",
+        "source": "D:\\ProgLAB\\AndroidStudio\\MobileSoftwareLAB\\ICE.com\\app\\src\\main\\res\\drawable\\clothes88.jpg"
     },
     {
         "merged": "D:\\ProgLAB\\AndroidStudio\\MobileSoftwareLAB\\ICE.com\\app\\build\\intermediates\\merged_res\\debug\\font_basic.ttf.flat",

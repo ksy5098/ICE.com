@@ -34,8 +34,7 @@ public class MainActivity2 extends AppCompatActivity {
         product_website.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Intent.ACTION_VIEW);
-                Uri.parse("http://www.beginning.kr");
+                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.beginning.kr"));
                 startActivity(intent);
             }
         });

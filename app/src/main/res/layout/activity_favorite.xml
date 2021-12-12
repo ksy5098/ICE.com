@@ -11,14 +11,27 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="157dp"
-        android:layout_marginTop="281dp"
+        android:layout_marginTop="108dp"
         android:layout_marginEnd="157dp"
-        android:layout_marginBottom="431dp"
-        android:text="Favorite Screen"
-        android:textSize="20sp"
+        android:fontFamily="@font/nexonlv1gothicbold"
+        android:text="Favorite Item"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="194dp"
+        android:layout_marginTop="156dp"
+        android:layout_marginEnd="194dp"
+        android:layout_marginBottom="403dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintTop_toBottomOf="@+id/favorite_txt"
+        app:srcCompat="@drawable/favorite_icon" />
 </androidx.constraintlayout.widget.ConstraintLayout>
