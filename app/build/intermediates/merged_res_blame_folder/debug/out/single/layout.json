@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "D:\\ProgLAB\\AndroidStudio\\MobileSoftwareLAB\\ICE.com\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_maps.xml",
+        "source": "D:\\ProgLAB\\AndroidStudio\\MobileSoftwareLAB\\ICE.com\\app\\src\\main\\res\\layout\\activity_maps.xml"
+    },
+    {
+        "merged": "D:\\ProgLAB\\AndroidStudio\\MobileSoftwareLAB\\ICE.com\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_favorite.xml",
+        "source": "D:\\ProgLAB\\AndroidStudio\\MobileSoftwareLAB\\ICE.com\\app\\src\\main\\res\\layout\\activity_favorite.xml"
+    },
+    {
+        "merged": "D:\\ProgLAB\\AndroidStudio\\MobileSoftwareLAB\\ICE.com\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main2.xml",
+        "source": "D:\\ProgLAB\\AndroidStudio\\MobileSoftwareLAB\\ICE.com\\app\\src\\main\\res\\layout\\activity_main2.xml"
+    },
+    {
+        "merged": "D:\\ProgLAB\\AndroidStudio\\MobileSoftwareLAB\\ICE.com\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_customer_service.xml",
+        "source": "D:\\ProgLAB\\AndroidStudio\\MobileSoftwareLAB\\ICE.com\\app\\src\\main\\res\\layout\\activity_customer_service.xml"
+    },
+    {
+        "merged": "D:\\ProgLAB\\AndroidStudio\\MobileSoftwareLAB\\ICE.com\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "D:\\ProgLAB\\AndroidStudio\\MobileSoftwareLAB\\ICE.com\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\ProgLAB\\AndroidStudio\\MobileSoftwareLAB\\ICE.com\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\header.xml",
+        "source": "D:\\ProgLAB\\AndroidStudio\\MobileSoftwareLAB\\ICE.com\\app\\src\\main\\res\\layout\\header.xml"
+    },
+    {
+        "merged": "D:\\ProgLAB\\AndroidStudio\\MobileSoftwareLAB\\ICE.com\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\card_layout.xml",
+        "source": "D:\\ProgLAB\\AndroidStudio\\MobileSoftwareLAB\\ICE.com\\app\\src\\main\\res\\layout\\card_layout.xml"
+    }
+]

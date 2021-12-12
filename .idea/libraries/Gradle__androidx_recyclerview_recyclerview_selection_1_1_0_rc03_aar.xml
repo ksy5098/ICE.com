@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.recyclerview:recyclerview-selection:1.1.0-rc03@aar">
+    <ANNOTATIONS>
+      <root url="jar://$PROJECT_DIR$/../../../../Program Files/Andriod/Andriod_AVD_Gradle/.gradle/caches/transforms-3/1d91cf16118a8b208e66eda7e82878ff/transformed/recyclerview-selection-1.1.0-rc03/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../../Program Files/Andriod/Andriod_AVD_Gradle/.gradle/caches/transforms-3/1d91cf16118a8b208e66eda7e82878ff/transformed/recyclerview-selection-1.1.0-rc03/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../Program Files/Andriod/Andriod_AVD_Gradle/.gradle/caches/transforms-3/1d91cf16118a8b208e66eda7e82878ff/transformed/recyclerview-selection-1.1.0-rc03/res" />
+      <root url="file://$PROJECT_DIR$/../../../../Program Files/Andriod/Andriod_AVD_Gradle/.gradle/caches/transforms-3/1d91cf16118a8b208e66eda7e82878ff/transformed/recyclerview-selection-1.1.0-rc03/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../../../Program Files/Andriod/Andriod_AVD_Gradle/.gradle/caches/modules-2/files-2.1/androidx.recyclerview/recyclerview-selection/1.1.0-rc03/1095da7182a2b5bc725b8582fb620e3425ee13b5/recyclerview-selection-1.1.0-rc03-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
