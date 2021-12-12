@@ -38,8 +38,8 @@
             android:id="@+id/product_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="80dp"
-            android:fontFamily="@font/baloo"
+            android:layout_marginTop="60dp"
+            android:fontFamily="@font/nexonlv1gothicbold"
             android:text="ICE.com"
             android:textSize="48sp"
             app:layout_constraintEnd_toEndOf="parent"
@@ -47,35 +47,35 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <TextView
-            android:id="@+id/cs"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="18dp"
-            android:layout_marginTop="60dp"
-            android:fontFamily="@font/basic"
-            android:text="문의하기"
-            app:layout_constraintEnd_toStartOf="@+id/product_name"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+<!--        <TextView-->
+<!--            android:id="@+id/cs"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="18dp"-->
+<!--            android:layout_marginTop="60dp"-->
+<!--            android:fontFamily="@font/basic"-->
+<!--            android:text="문의하기"-->
+<!--            app:layout_constraintEnd_toStartOf="@+id/product_name"-->
+<!--            app:layout_constraintHorizontal_bias="0.0"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent" />-->
 
-        <TextView
-            android:id="@+id/location"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="60dp"
-            android:text="위치보기"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.835"
-            app:layout_constraintStart_toEndOf="@+id/product_name"
-            app:layout_constraintTop_toTopOf="parent" />
+<!--        <TextView-->
+<!--            android:id="@+id/location"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="60dp"-->
+<!--            android:text="위치보기"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintHorizontal_bias="0.835"-->
+<!--            app:layout_constraintStart_toEndOf="@+id/product_name"-->
+<!--            app:layout_constraintTop_toTopOf="parent" />-->
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/recyclerView"
-            android:layout_width="410dp"
-            android:layout_height="603dp"
-            android:layout_marginTop="8dp"
+            android:layout_width="399dp"
+            android:layout_height="640dp"
+            android:layout_marginTop="24dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"

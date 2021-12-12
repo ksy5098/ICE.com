@@ -19,7 +19,7 @@
             android:title="Customer Service" />
 
         <item
-            android:id="@+id/location"
+            android:id="@+id/nav_location"
             android:icon="@drawable/location_icon"
             android:title="location" />
 

@@ -13,9 +13,11 @@ import android.content.Intent;
 import android.graphics.Color;
 import android.net.Uri;
 import android.os.Bundle;
+import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.google.android.material.navigation.NavigationView;
 
@@ -48,22 +50,22 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         navigationView = findViewById(R.id.nav_view);
         toolbar = findViewById(R.id.toolbar);
 
-        TextView cs = findViewById(R.id.cs);
-        TextView location = findViewById(R.id.location);
+//        TextView cs = findViewById(R.id.cs);
+//        TextView location = findViewById(R.id.location);
 
         setSupportActionBar(toolbar);
-//        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-//        getSupportActionBar().setHomeAsUpIndicator(R.drawable.menu_icon);
-//        toolbar.setTitle("android-template");
-//        toolbar.setTitleTextColor(Color.WHITE);
+
+        Menu menu = navigationView.getMenu();
+        menu.findItem(R.id.nav_logout).setVisible(false);
+        menu.findItem(R.id.nav_profile).setVisible(false);
 
         navigationView.bringToFront();
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(this, drawerLayout, toolbar,
                 R.string.navigation_drawer_open, R.string.navigation_drawer_close);
         drawerLayout.addDrawerListener(toggle);
         toggle.syncState();
-
         navigationView.setNavigationItemSelectedListener(this);
+        navigationView.setCheckedItem(R.id.nav_home);
 
 
         s1 = getResources().getStringArray(R.array.product_name);
@@ -76,21 +78,21 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         recyclerView.setAdapter(myAdapter);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
 
-        cs.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, CustomerService.class);
-                startActivity(intent);
-            }
-        });
-
-        location.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, MapsActivity.class);
-                startActivity(intent);
-            }
-        });
+//        cs.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Intent intent = new Intent(MainActivity.this, CustomerService.class);
+//                startActivity(intent);
+//            }
+//        });
+//
+//        location.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Intent intent = new Intent(MainActivity.this, MapsActivity.class);
+//                startActivity(intent);
+//            }
+//        });
 
 //        location.setOnClickListener(new View.OnClickListener() {
 //            @Override
@@ -101,7 +103,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 //                startActivity(intent);
 //            }
 //        });
-
 
 
     }
@@ -116,7 +117,29 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     }
 
     @Override
-    public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+    public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
+
+        switch (menuItem.getItemId()) {
+            case R.id.nav_home:
+                break;
+            case R.id.nav_favorite:
+                Intent intent = new Intent(MainActivity.this, Favorite.class);
+                startActivity(intent);
+                break;
+            case R.id.nav_CustomerService:
+                Intent intent1 = new Intent(MainActivity.this, CustomerService.class);
+                startActivity(intent1);
+                break;
+            case R.id.nav_location:
+                Intent intent2 = new Intent(MainActivity.this, MapsActivity.class);
+                startActivity(intent2);
+                break;
+            case R.id.nav_share:
+                Toast.makeText(this, "Share", Toast.LENGTH_SHORT).show();
+                break;
+        }
+        drawerLayout.closeDrawer(GravityCompat.START);
         return true;
     }
+
 }

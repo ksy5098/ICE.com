@@ -13,16 +13,16 @@
         android:src="@drawable/ic_launcher_foreground"/>
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/baloo"
+        android:layout_width="106dp"
+        android:layout_height="42dp"
+        android:fontFamily="@font/nexonlv1gothicbold"
         android:text="ICE.com"
         android:textSize="24sp" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/basic"
+        android:fontFamily="@font/nexonlv1gothicregular"
         android:text="www.ICE.com"
         android:textSize="14sp" />
 
